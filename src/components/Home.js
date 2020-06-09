@@ -6,7 +6,8 @@ const Home = () => {
   return (
     <motion.div
       className='home container'
-      animate={{ marginTop: 200, opacity: 0.2, rotateZ: 180 }}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
     >
       <h2>Welcome to Pizza Joint</h2>
       <Link to='/base'>
